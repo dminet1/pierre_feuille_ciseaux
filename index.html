@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Pierre feuille ciseaux</title>
+</head>
+<body>
+  <section>
+    <center>
+      <p>
+      JEU DU PIERRE-FEUILLE-CISEAUX
+      </p>
+      <p>
+      ORDI:<br>
+      Je suis prêt ! Je vous attends
+      </p>
+      <br>
+      <div>
+        FAITES VOTRE CHOIX:
+        <br>
+        <button id="bouton1" name="buttonPierre" onClick="Votrechoix(1)"><img style="width:5rem;height:5rem" src="img/choix1.jpg" alt="image PIERRE"></button>
+        <button id="bouton2" name="buttonFeuille" onClick="Votrechoix(2)"><img style="width:5rem;height:5rem" src="img/choix2.jpg" alt="image FEUILLE"></button>
+        <button id="bouton3" name="buttonCiseaux" onClick="Votrechoix(3)"><img style="width:5rem;height:5rem" src="img/choix3.jpg" alt="image CISEAUX"></button>
+        <br>
+      </div>
+      <br>
+      <div id="choixVous">
+      </div>
+      <div id="choixOrdi">
+      </div>
+      <br>
+      <div id="resultat">
+      </div>
+      <br>
+      <div id="compteurs">
+      </div>
+      <div>
+        <br>
+        <button id="boutonReset" onclick="reset()">Reset</button>
+      </div>
+    </center>
+  </section>
+  <script src="js/script.js" type="text/javascript"></script>
+</body>
+</html>
